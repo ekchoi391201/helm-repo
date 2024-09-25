@@ -18,7 +18,7 @@ spec:
   selector:
     matchLabels:
       app: was
-  replicas: 5
+  replicas: {{.Values.replicaCount}}
   template:
     metadata:
       labels:
