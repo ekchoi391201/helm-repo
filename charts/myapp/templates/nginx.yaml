@@ -32,12 +32,12 @@ spec:
           httpGet:
             path: /
             port: 80
-        # lifecycle:
-        #   preStop:
-        #     exec:
-        #       command:
-        #         - "sleep"
-        #         - "30"        
+        lifecycle:
+          preStop:
+            exec:
+              command:
+                - "sleep"
+                - "30"        
         ports:
         - containerPort: 80
         volumeMounts:
