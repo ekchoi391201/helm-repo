@@ -3,11 +3,11 @@ entries:
   myapp:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-09-26T01:59:18.638100316Z"
+    created: "2024-09-26T04:37:05.818293872Z"
     description: test app
-    digest: b79df298e46807e1882df26b64a5e00cae80f4cb4f5968d3d41c441ee71d25b0
+    digest: 5d36237d141b301cdd26742ee37bcf90718ce2787758dc5065534d001d7a7641
     name: myapp
     urls:
     - https://ekchoi391201.github.io/helm-repo/myapp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-26T01:59:18.637609301Z"
+generated: "2024-09-26T04:37:05.817561596Z"
