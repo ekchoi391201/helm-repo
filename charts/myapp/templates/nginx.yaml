@@ -38,13 +38,13 @@ spec:
               command:
                 - "sleep"
                 - "30"        
-        # livenessProbe:
-        #   httpGet:
-        #     path: /
-        #     port: 80
-        #   initialDelaySeconds: 5
-        #   periodSeconds: 10
-        #   failureThreshold: 3
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 80
+          initialDelaySeconds: 5
+          periodSeconds: 10
+          failureThreshold: 3
                   
         ports:
         - containerPort: 80
