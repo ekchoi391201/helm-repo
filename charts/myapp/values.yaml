@@ -8,7 +8,7 @@ nginx:
   replicaCount: 1
 wasImage:
   repository: "ekchoi3912/cicdlab_1"
-  tag: v1
+  tag: v2
   pullPolicy: IfNotPresent
 
 service:
