@@ -27,14 +27,14 @@ spec:
       containers:
       - name: was
         image: {{ .Values.wasImage.repository }}:{{ .Values.wasImage.tag }}
-        readinessProbe:
-          httpGet:
-            path: /
-            port: 8080                   
-        livenessProbe:
-          httpGet:
-            path: /
-            port: 8080
+        # readinessProbe:
+        #   httpGet:
+        #     path: /
+        #     port: 8080                   
+        # livenessProbe:
+        #   httpGet:
+        #     path: /
+        #     port: 8080
           initialDelaySeconds: 5
           periodSeconds: 10
           failureThreshold: 3            
