@@ -5,7 +5,7 @@ was:
   replicaCount: 1
 
 nginx:
-  replicaCount: 1
+  replicaCount: 5
 wasImage:
   repository: "ekchoi3912/cicdlab_1"
   tag: v3
