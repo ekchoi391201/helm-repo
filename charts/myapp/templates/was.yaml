@@ -35,9 +35,9 @@ spec:
         #   httpGet:
         #     path: /
         #     port: 8080
-          initialDelaySeconds: 5
-          periodSeconds: 10
-          failureThreshold: 3            
+        #   initialDelaySeconds: 5
+        #   periodSeconds: 10
+        #   failureThreshold: 3            
         imagePullPolicy: {{ .Values.wasImage.pullPolicy }}
         ports:
         - containerPort: 8080
